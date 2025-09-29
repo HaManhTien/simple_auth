@@ -11,16 +11,19 @@ Dự án này minh họa hai cơ chế xác thực trong Node.js:
 
 ## Hình minh họa
 
-### 1. Đăng nhập (Login)
+### 1. Basic Auth
+![Basic Auth](public/results/basic_auth.png)
+
+### 2. Đăng nhập (Login)
 ![Login](public/results/login.png)
 
-### 2. Truy cập hồ sơ người dùng (Profile)
+### 3. Truy cập hồ sơ người dùng (Profile)
 ![Profile](public/results/profile.png)
 
-### 3. Đăng xuất (Logout)
+### 4. Đăng xuất (Logout)
 ![Logout](public/results/logout.png)
 
-### 4. Cookie trong MongoDB
+### 5. Cookie trong MongoDB
 ![MongoDB](public/results/mongo_cookie.png)
 
 ## Cấu trúc thư mục
