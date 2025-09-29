@@ -1,25 +1,26 @@
-# Project: Simple Auth
+# Project: Simple Authentication (Basic & Cookie Session)
 
 ## Thông tin sinh viên
 - **MSSV:** 22711971  
-- **Họ và tên:** Hà Mạnh Tiến
-  
-## 1. Basic Auth
-- Chạy: `node basic_auth.js`
-- Test: mở Postman, chọn Basic Auth → nhập user/pass → gửi request.
+- **Họ và tên:** Hà Mạnh Tiến  
 
-## 2. Cookie Auth
-- Chạy: `node cookie_auth.js`
-- Test login với Postman:
-  - POST /login (username, password)
-  - GET /profile (xem thông tin, cần cookie)
-  - GET /logout (xóa cookie)
+## Mô tả
+Dự án này minh họa hai cơ chế xác thực trong Node.js:
+1. **Basic Authentication** – kiểm tra username/password bằng HTTP Basic Auth.  
+2. **Cookie Session Authentication** – đăng nhập, quản lý profile và đăng xuất bằng cookie lưu trong MongoDB.  
 
-## 3. Kết quả
-![Basic Auth](public/results/basic_auth.png)  
-![Login](public/results/login.png)  
-![Profile](public/results/profile.png)  
-![Logout](public/results/logout.png)  
-![MongoDB Cookie](public/results/mongo_cookie.png)
+## Hình minh họa
 
----
+### 1. Đăng nhập (Login)
+![Login](public/results/login.png)
+
+### 2. Truy cập hồ sơ người dùng (Profile)
+![Profile](public/results/profile.png)
+
+### 3. Đăng xuất (Logout)
+![Logout](public/results/logout.png)
+
+### 4. Cookie trong MongoDB
+![MongoDB](public/results/mongo_cookie.png)
+
+## Cấu trúc thư mục
